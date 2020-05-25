@@ -1,13 +1,36 @@
 body {
-    background-image: url('assets/sekakukat.jpg');
+    /* background-image: url('assets/sekakukat.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .tausta {
     position: relative;
     width: 76%;
     left: 12%;
-    background-color: cornsilk;
+    background-color: rgb(255, 255, 255);
+    height: 2000px;
+}
+
+.banneri {
+    background-image: url('assets/Banneri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 99vw;
+    height: 1600px;
+    overflow-x: hidden;
+    z-index: -500;
+}
+
+.header {
+    height: 100vh;
+}
+
+.huom {
+    text-transform: uppercase;
+    font-size: 3em;
 }
