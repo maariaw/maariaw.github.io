@@ -1,29 +1,25 @@
-body {
-    /* background-image: url('assets/sekakukat.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#taustakuva {
+    position: absolute;
+    top: -2%;
+    left: 0;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    z-index: -1;
 }
 
 .tausta {
-    position: relative;
-    width: 76%;
-    left: 12%;
+    max-width: 50em;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     height: 2000px;
-}
-
-.banneri {
-    background-image: url('assets/Banneri.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    width: 99vw;
-    height: 1600px;
-    overflow-x: hidden;
-    z-index: -500;
 }
 
 .header {
@@ -33,4 +29,5 @@ body {
 .huom {
     text-transform: uppercase;
     font-size: 3em;
+    text-align: center;
 }
