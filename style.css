@@ -1,0 +1,13 @@
+body {
+    background-image: url('assets/sekakukat.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tausta {
+    position: relative;
+    width: 76%;
+    left: 12%;
+    background-color: cornsilk;
+}
