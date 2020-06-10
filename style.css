@@ -20,10 +20,12 @@ html, body {
     margin: auto;
     background-color: rgb(255, 255, 255);
     height: 2000px;
+    padding: 2em 3em 4em;
 }
 
 .header {
     height: 100vh;
+    color: rgb(0, 0, 0)
 }
 
 .huom {
